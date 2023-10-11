@@ -310,7 +310,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: `现在你可以向我提出问题了，如果你需要更准确的答案你需要跟我说的详细一些。/n/n我们的官网[https://maisui66.cn/]`,
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,

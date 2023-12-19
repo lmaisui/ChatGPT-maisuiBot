@@ -1,49 +1,49 @@
-<div align="center">
-<img src="./docs/images/icon.svg" alt="icon"/>
+<div对齐=“居中”>
+< img src = “./docs/images/icon.svg”    alt = “图标”    />
 
-<h1 align="center">ChatGPT Next Web</h1>
+<h1align=“center”> ChatGPTNextWeb </ h1 > _
 
-English / [简体中文](./README_CN.md)
+中文 / [简体中文] ( ./README_CN.md )
 
-One-Click to get well-designed cross-platform ChatGPT web UI.
+一键获得了所提出设计的跨平台的ChatGPT Web UI。
 
-一键免费部署你的跨平台私人 麦穗ChatGPT 应用。
+一键免费为您部署跨平台私人麦穗ChatGPT应用。
 
-[![Web][Web-image]][web-url]
-[![Windows][Windows-image]][download-url]
-[![MacOS][MacOS-image]][download-url]
-[![Linux][Linux-image]][download-url]
+[ ![网页]   [网页图像] ] [ ]web-url
+[ ![ Windows ]  [ Windows 图片] ] [下载网址]
+[ ![ MacOS ]   [ MacOS-image ] ] [下载地址]
+[ ![ Linux ]    [ Linux 镜像] ] [下载地址]
 
-[Web App](https://chatgpt.nextweb.fun/) / [Desktop App](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [Discord](https://discord.gg/YCkeafCafC) / [Twitter](https://twitter.com/mortiest_ricky) / [Buy Me a Coffee](https://www.buymeacoffee.com/yidadaa)
+[Web应用程序] ( https://chatgpt.nextweb.fun/ ) / [桌面应用程序] ( https://github.com/Yidadaa/ChatGPT-Next-Web/releases ) / [ Discord ] ( https:// Discord .gg/YCkeafCafC ) / [ Twitter ] ( https://twitter.com/mortiest_ricky ) / [给我买杯咖啡] ( https://www.buymeacoffee.com/yidadaa )
 
-[网页版](https://chatgpt.nextweb.fun/) / [客户端](https://github.com/Yidadaa/ChatGPT-Next-Web/releases) / [反馈](https://github.com/Yidadaa/ChatGPT-Next-Web/issues) / [QQ 群](https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724) / [打赏开发者](https://user-images.githubusercontent.com/16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg)
+[网页版]( https://chatgpt.nextweb.fun/ ) / [客户端] ( https://github.com/Yidadaa/ChatGPT-Next-Web/releases ) / [反馈] ( https://github.com/Yidadaa /ChatGPT-Next-Web/issues ) / [ QQ群] ( https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724 ) / [打赏开发者] ( https://github.com /Yidadaa/ChatGPT-Next-Web/discussions/1724 ) / [打赏开发者] ( https://github.com/Yidadaa/ChatGPT-Next-Web/discussions/1724 ) /user-images.githubusercontent.com/ 16968934/227772541-5bcd52d8-61b7-488c-a203-0330d8006e2b.jpg）  
 
-[web-url]: https://chatgpt.nextweb.fun
-[download-url]: https://github.com/Yidadaa/ChatGPT-Next-Web/releases
-[Web-image]: https://img.shields.io/badge/Web-PWA-orange?logo=microsoftedge
-[Windows-image]: https://img.shields.io/badge/-Windows-blue?logo=windows
-[MacOS-image]: https://img.shields.io/badge/-MacOS-black?logo=apple
-[Linux-image]: https://img.shields.io/badge/-Linux-333?logo=ubuntu
+[网络地址]： https://chatgpt.nextweb.fun
+[下载地址]： https://github.com/Yidadaa/ChatGPT-Next-Web/releases
+[网页图片]： https://img.shields.io/badge/Web-PWA-orange? 本质=microsoftedge
+[ Windows-图像]： https://img.shields.io/badge/-Windows-blue?logo =windows
+[ MacOS-图片]： https://img.shields.io/badge/-MacOS-black?logo =apple
+[ Linux-图片]： https://img.shields.io/badge/-Linux-333 ?logo=ubuntu
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT-Next-Web&env=OPENAI_API_KEY&env=CODE&project-name=chatgpt-next-web&repository-name=ChatGPT-Next-Web)
+[ ![使用 Vercel 部署] ( https://vercel.com/button ) ] ( https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FYidadaa%2FChatGPT- 下一步-Web&env=OPENAI_API_KEY&env=CODE&项目名称=chatgpt-next-web&存储库名称=ChatGPT-Next-Web )
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-Next-Web)
+[ ![在 Gitpod 中打开] ( https://gitpod.io/button/open-in-gitpod.svg ) ] ( https://gitpod.io/#https://github.com/Yidadaa/ChatGPT-下一篇-网络） 
 
-![cover](./docs/images/cover.png)
+![封面] ( ./docs/images/cover.png )
 
-</div>
+</div> _ _ _ _ _
 
-## Features
+＃＃特征
 
 - **Deploy for free with one-click** on Vercel in under 1 minute
 - Compact client (~5MB) on Linux/Windows/MacOS, [download it now](https://github.com/Yidadaa/ChatGPT-Next-Web/releases)
 - Fully compatible with self-deployed llms, recommended for use with [RWKV-Runner](https://github.com/josStorer/RWKV-Runner) or [LocalAI](https://github.com/go-skynet/LocalAI)
 - Privacy first, all data stored locally in the browser
 - Markdown support: LaTex, mermaid, code highlight, etc.
-- Responsive design, dark mode and PWA
-- Fast first screen loading speed (~100kb), support streaming response
-- New in v2: create, share and debug your chat tools with prompt templates (mask)
-- Awesome prompts powered by [awesome-chatgpt-prompts-zh](https://github.com/PlexPt/awesome-chatgpt-prompts-zh) and [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts)
+-响应式设计、深色模式和 PWA
+-首屏加载速度快（~100kb），支持流式响应
+- v2 中的新增功能：使用提示模板（掩码）创建、共享和调试您的聊天工具
+-由[ awesome-chatgpt-prompts-zh ] ( https://github.com/PlexPt/awesome-chatgpt-prompts-zh )和[ awesome-chatgpt-prompts ] ( https://github.com/ f/很棒的聊天提示）
 - Automatically compresses chat history to support long conversations while also saving your tokens
 - I18n: English, 简体中文, 繁体中文, 日本語, Français, Español, Italiano, Türkçe, Deutsch, Tiếng Việt, Русский, Čeština, 한국어, Indonesia
 
